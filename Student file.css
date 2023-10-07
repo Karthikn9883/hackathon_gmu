@@ -1,0 +1,68 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #187611;
+}
+
+header {
+    background-color: rgb(233, 233, 233);
+    color:#125d03 ;
+    
+    padding: 20px;
+}
+header h1{
+    text-align: center;
+}
+.portal-button {
+    background-color: #3569cb; /* Choose a color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Removes the underline since it's an <a> tag */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portal-button:hover {
+    background-color: #1c85b6; /* A darker shade for hover */
+}
+
+nav {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    background-color: #e8ce28;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(16, 140, 43);
+    color: rgb(239, 244, 240);
+    text-align: center;
+    padding: 10px;
+}
