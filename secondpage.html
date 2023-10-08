@@ -22,35 +22,47 @@
 
     <nav id="slideMenu" class="menu-closed">
         <ul>
-            <li><a href="clubs.html">Clubs</a></li>
-            <li><a href="classes.html">Classes</a></li>
-            <li><a href="student_life.html">Student Life</a></li>
+            <li id="listitems"><a href="clubs.html">Clubs</a></li>
+            <li id="listitems"><a href="classes.html">Classes</a></li>
+            <li id="listitems"><a href="student_life.html">Student Life</a></li>
+            <li id="signout"><a href="index.html">log out</a></li>
             <!-- Add other menu items as necessary -->
         </ul>
     </nav>
 
     <div class="container">
         <div class="box">
-            <a href="app1.html">
-                <img src="clubs_gmu.png" alt="clubs portal"  class="zoom-effect">
+            <a href="clubs.html">
+                <img src="Club-Football-2-resize-723x264.jpg" alt="clubs portal"  class="zoom-effect">
                 <p>CLUBS</p>
             </a>
         </div>
         <div class="box">
-            <a href="app2.html">
-                <img src="classes_gmu.jpeg" alt="classes portal"  class="zoom-effect">
+            <a href="classes.html">
+                <img src="2021_04_20_PWgmu13_C_web.jpg" alt="classes portal"  class="zoom-effect">
                 <p>CLASSES</p>
             </a>
         </div>
         <div class="box">
             <a href="Student life.html">
-                <img src="student_life_gmu.jpeg" alt="student life portal"  class="zoom-effect">
+                <img src="8c02e31f4205badad09961b75faa50ed--freshman-orientation-mason-university.jpg" alt="student life portal"  class="zoom-effect">
                 <p>STUDENT LIFE</p>
             </a>
         </div>
     </div>
 
     <script src="script.js"></script>
+    <script type="text/javascript">
+        (function(d, m){
+            var kommunicateSettings = 
+                {"appId":"3f1cc3b68e2ff245ac94326d52c23951","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+    </script>
 
 </body>
 </html>

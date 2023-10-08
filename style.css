@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(135deg, #6ab48f 10%, #006633 100%);
+  background-image: linear-gradient(135deg, #FFCC33 10%, #006633 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10,9 +10,9 @@ body {
 .box-form {
   margin: 0 auto;
   width: 80%;
-  background: #FFCC33;
+  background: #eec854;
   border-radius: 10px;
-  overflow: hidden;
+  overflow: visible;
   display: flex;
   flex: 1 1 100%;
   align-items: stretch;
@@ -35,7 +35,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("GMU-Horizon_Ext-03_HR-cropped-1200x1200-cropped.png");
-  overflow: auto;
+  overflow: scroll;
 }
 .box-form .left .overlay {
   padding: 40px;
@@ -46,7 +46,7 @@ body {
   box-sizing: border-box;
 }
 .box-form .left .overlay h1 {
-  font-size: 8vmax;
+  font-size: 6vmax;
   line-height: 1;
   font-weight: 900;
   margin-top: 40px;

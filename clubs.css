@@ -106,20 +106,12 @@ nav ul {
     padding: 0;
     background-color: #c38c1d;
 }
-#listitems a {
+nav li a {
     color: #0c4815;
     font-weight: bold; 
     text-decoration: none;
     font-size:large;
 }
-#signout a{
-    color: #480c0c;
-    font-weight: bold; 
-    text-decoration: none;
-    font-size:large;
-    
-}
-
 nav li a:hover {
     color: #173019;  /* Change this to your desired hover color */
     
