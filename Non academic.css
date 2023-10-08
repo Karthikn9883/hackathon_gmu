@@ -59,7 +59,10 @@ section {
     margin: 20px;
     padding: 20px;
 }
-
+section img{
+    height: 40%;
+    width: 20%;
+}
 footer {
     background-color: rgb(16, 140, 43);
     color: rgb(239, 244, 240);

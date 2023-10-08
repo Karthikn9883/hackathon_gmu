@@ -16,10 +16,22 @@ html, body, input, textarea, select, button {
 } */
 
 body {
-    font-family: Arial, sans-serif;
-     background-color: #185a1c; 
     margin: 0;
-    padding: 0;
+    height: 100vh;
+    position: relative;
+    background-color: rgba(199, 233, 152, 0.5); /* Optional, if you want to blend the image with a color. */
+}
+
+body::before {
+    content: "";
+    background-image: url('gmu_logo2.png');
+    opacity: 0.5; /* Adjust this between 0 (invisible) and 1 (fully visible) */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 

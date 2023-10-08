@@ -1,8 +1,6 @@
 [
     {
         "username": "exampleUser",
-        "password": "hashedPasswordHere",
-        "username": "exampleUser1",
-        "password": "hashedPasswordHere1"
+        "password": "hashedPasswordHere"
     }
 ]
